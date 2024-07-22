@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+ body{
+  background: linear-gradient(45deg, rgba(80, 10, 10, 0.585), rgba(14, 14, 111, 0.552));
+   height: 100vh;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+ }
+
+ .relogio{
+  height: 200px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
+  box-shadow: 7px 7px 7px 1px rgba(0, 0, 0, 0.263);
+  border-radius: 7px;
+ }
+
+ .bloco{
+  height: 170px;
+  width: 150px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 7px;
+  box-shadow: 7px 7px 7px 1px rgba(0, 0, 0, 0.341);
+  color: white;
+  background-color: black;
+  flex-direction: column;
+  letter-spacing: 3px;
+ }
+
+ span{
+  font-weight: bolder;
+  font-size: 60px;
+ }
+
+.tempo{
+  font-size: 10px;
+ }
